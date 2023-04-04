@@ -6,15 +6,17 @@ import Pagina from '../components/Pagina';
 const pagina2 = () => {
   return (
     <>
-      <Pagina />
+      <Pagina titulo="Pagina 2" nome="Rogerio Matos">
       <Container>
         
-    <p>Qualquer Texto</p>
-    <p>Qualquer Texto</p>
+      <h1>Qualquer Texto</h1>
+        <p>Qualquer Texto</p>
+        <p>Qualquer Texto</p>
+        <p>Qualquer Texto</p>
       
 
       </Container>
-      
+      </Pagina>
     </>
   )
 }
